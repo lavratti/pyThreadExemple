@@ -37,6 +37,6 @@ if __name__ == "__main__":
     for th in minhas_threads:
         print(f"pedindo para {th.nome} parar de contar.")
         th.parar_de_contar()
-        th.join(timeout=5)
+    th.join(timeout=5)
 
     print("Fim.")
